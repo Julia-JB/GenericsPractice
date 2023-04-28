@@ -1,4 +1,4 @@
-public class GenericList <T> { // T is for Type by convention
+public class GenericList <T> { // Creating a generic class. T is for Type by convention
     private T[] items = (T[]) new Object[10];
     private int count;
     public void add(T item) {
